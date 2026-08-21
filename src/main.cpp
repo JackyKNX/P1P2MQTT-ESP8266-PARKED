@@ -61,8 +61,8 @@ static const char *FW_VERSION = "1.0.0";
 static const char *FW_AUTHOR  = "JackyKNX";
 
 // Hardcoded WiFi credentials (no captive portal / WiFiManager).
-static const char *WIFI_SSID     = "Centralna";
-static const char *WIFI_PASSWORD = "Fil95klo!Fil95klo!";
+static const char *WIFI_SSID     = "XXXXXX";
+static const char *WIFI_PASSWORD = "XXXXX";
 
 // Used both for ArduinoOTA and for basic-auth on the /update page.
 static const char *OTA_HOSTNAME = "p1p2-parked";
