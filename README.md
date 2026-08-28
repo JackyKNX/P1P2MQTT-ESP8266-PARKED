@@ -45,6 +45,18 @@ The goal is not to replace the proven P1/P2 controller, but to provide a more
 reliable, maintainable and production-oriented network gateway for 24/7
 operation.
 
+## Why ESP32 instead of ESP8266?
+
+ESP32 is a better fit for a permanently installed gateway:
+
+- **Native Ethernet** instead of Wi-Fi for a more stable network connection.
+- **PoE support** for power and network through a single Ethernet cable.
+- **More CPU, RAM and Flash** for MQTT, web services, diagnostics and OTA.
+- **More peripherals and interfaces** for future extensions.
+
+The ESP32 replaces the legacy network/bridge layer; the proven ATmega328P/P1P2Monitor
+and the Daikin P1/P2 communication remain unchanged.
+
 ## Overview
 
 P1P2MQTT-ESP32 replaces the original ESP8266 network/bridge controller with an
